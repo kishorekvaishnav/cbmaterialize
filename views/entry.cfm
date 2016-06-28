@@ -78,7 +78,7 @@
 	var content = document.getElementById('content').value;
 	var captchacode = document.getElementById('captchacode').value;
 	
-	var errorMsg;
+	var errorMsg = '';
 	if(author==''){
    		errorMsg ='Author name is required.';
 		document.getElementById('author').focus();
@@ -98,6 +98,8 @@
 	if(errorMsg!=''){
 		var errorData = {message: errorMsg,timeout: 4000,actionText: 'Dismiss'};
 		snackbarContainer.MaterialSnackbar.showSnackbar(errorData);
+	}else{
+		document.getElementById("commentForm").submit();
 	}
   });
 }());
