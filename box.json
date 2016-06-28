@@ -6,11 +6,11 @@
     "directory":"",
     "createPackageDirectory":true,
     "packageDirectory":"",
-    "homepage":"https://lucidsolutions.in/",
+    "homepage":"http://www.ortussolutions.com/products/contentbox",
     "documentation":"",
     "repository":{
-        "type":"",
-        "URL":""
+        "type":"git",
+        "URL":"https://github.com/kishorekvaishnav/cbmaterialize/"
     },
     "bugs":"",
     "slug":"rcbmaterialize",
@@ -34,8 +34,8 @@
     "projectURL":"",
     "license":[
         {
-            "type":"",
-            "URL":""
+            "type":"Apache2",
+            "URL":"http://www.apache.org/licenses/LICENSE-2.0"
         }
     ],
     "contributors":[
